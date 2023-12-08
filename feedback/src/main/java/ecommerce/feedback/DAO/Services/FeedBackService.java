@@ -1,6 +1,7 @@
 package ecommerce.feedback.DAO.Services;
 
 import ecommerce.feedback.DAO.Entities.Feedback;
+import ecommerce.feedback.DAO.Proxy.ProduitProxy;
 import ecommerce.feedback.DAO.Repositories.FeedbackRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
@@ -11,6 +12,9 @@ import java.util.List;
 public class FeedBackService implements IFeedbackService{
     @Autowired
     private FeedbackRepository feedbackRepository;
+
+    @Autowired
+    private ProduitProxy produitProxy;
     @Override
     public List<Feedback> findAll() {
         return feedbackRepository.findAll();
@@ -39,4 +43,11 @@ public class FeedBackService implements IFeedbackService{
     public void deleteFeedBack(long id) {
         feedbackRepository.deleteById(id);
     }
+
+
+    @Override
+    public String getProductByFeignClient(String name){
+        return produitProxy.getName(name);
+    }
+
 }
