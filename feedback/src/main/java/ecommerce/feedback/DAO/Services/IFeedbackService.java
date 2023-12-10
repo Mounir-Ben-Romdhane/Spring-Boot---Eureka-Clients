@@ -15,4 +15,7 @@ public interface IFeedbackService {
 
     void deleteFeedBack(long id);
 
+
+    public String getProductByFeignClient(String name);
+
 }
