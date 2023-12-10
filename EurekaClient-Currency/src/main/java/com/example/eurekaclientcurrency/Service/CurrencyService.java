@@ -19,7 +19,7 @@ public class CurrencyService implements ICurrency {
     }
 
     @Override
-    public Currency editCurrency(long id, Currency newCurrency) {
+    public Currency updateCurrency(long id, Currency newCurrency) {
         if (currencyRepository.findById(id).isPresent()) {
             Currency existingCurrency = currencyRepository.findById(id).get();
             existingCurrency.setCode(newCurrency.getCode());

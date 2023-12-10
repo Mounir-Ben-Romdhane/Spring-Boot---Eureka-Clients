@@ -19,26 +19,16 @@ public class CurrencyController {
     ICurrency currency;
 
     @PostMapping("/add")
-    @ResponseStatus(HttpStatus.CREATED)
-    public ResponseEntity<Currency> createCurrency(@RequestBody Currency c) {
-        return new ResponseEntity<>(currency.addCurrency(c), HttpStatus.OK); // Utilisation de l'instance 'currency'
+    public Currency createCurrency(@RequestBody Currency c) {
+        return currency.addCurrency(c); // Utilisation de l'instance 'currency'
     }
-
     @PutMapping("update/{id}")
-    @ResponseStatus(HttpStatus.OK)
-    public ResponseEntity<Currency> updateCurrency(@PathVariable(value = "id") long id, @RequestBody Currency c) {
-        return new ResponseEntity<>(currency.editCurrency(id, c), HttpStatus.OK); // Utilisation de l'instance 'currency'
+    Currency updateCurrency(@PathVariable("id") Long id, @RequestBody  Currency b){
+        return currency.updateCurrency(id, b);
     }
-
     @DeleteMapping("delete/{id}")
-    @ResponseStatus(HttpStatus.OK)
-    public ResponseEntity<String> deleteCurrency(@PathVariable(value = "id") long id) {
-        return new ResponseEntity<>(currency.delete(id), HttpStatus.OK); // Utilisation de l'instance 'currency'
+        void delete(@PathVariable("id") Long id ){currency.delete(id);} ; // Utilisation de l'instance 'currency'
+    @GetMapping("/findAll")
+        List<Currency> findAll(){return currency.findAll();}; // Utilisation de l'instance 'currency'
     }
 
-    @GetMapping("/findAll")
-    @ResponseStatus(HttpStatus.OK)
-    public ResponseEntity<List<Currency>> getAllCurrencies() {
-        return new ResponseEntity<>(currency.findAll(), HttpStatus.OK); // Utilisation de l'instance 'currency'
-    }
-}

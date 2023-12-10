@@ -7,7 +7,7 @@ import java.util.List;
 public interface ICurrency {
 
     Currency addCurrency(Currency c);
-    Currency editCurrency(long id ,Currency e);
+    Currency updateCurrency(long id ,Currency e);
     List<Currency> findAll();
     String delete(long id);
 
