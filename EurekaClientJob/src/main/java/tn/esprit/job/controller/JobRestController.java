@@ -16,9 +16,14 @@ public class JobRestController {
     @Autowired
     private JobService jobService ;
 
-    @GetMapping(produces = MediaType.APPLICATION_JSON_VALUE)
-    public ResponseEntity<List<Job>> JobListe(){
-        return new ResponseEntity<>(jobService.findAllJobs(), HttpStatus.OK);
+    @PostMapping("/add")
+    public Job addJob(@RequestBody Job job){
+        return jobService.addJob(job);
+    }
+
+    @GetMapping("/all")
+    public List<Job> JobListe(){
+        return jobService.findAllJobs();
     }
 
     @GetMapping(value = "byNameOrId" ,produces = MediaType.APPLICATION_JSON_VALUE)

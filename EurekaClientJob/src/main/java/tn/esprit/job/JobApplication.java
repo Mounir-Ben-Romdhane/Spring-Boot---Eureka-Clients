@@ -15,13 +15,13 @@ public class JobApplication {
     public static void main(String[] args) {
         SpringApplication.run(JobApplication.class, args);
     }
-    @Autowired
-    private JobRepository repository ;
-    @Bean
+    //@Autowired
+    //private JobRepository repository ;
+    /*@Bean
     ApplicationRunner init(){
         return (args -> {
 
             repository.findAll().forEach(System.out::println);
         }) ;
-    }
+    }*/
 }
