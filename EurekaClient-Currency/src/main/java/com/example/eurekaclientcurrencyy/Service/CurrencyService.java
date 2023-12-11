@@ -1,7 +1,7 @@
-package com.example.eurekaclientcurrency.Service;
+package com.example.eurekaclientcurrencyy.Service;
 
-import com.example.eurekaclientcurrency.Entity.Currency;
-import com.example.eurekaclientcurrency.Repository.CurrencyRepository;
+import com.example.eurekaclientcurrencyy.Entity.Currency;
+import com.example.eurekaclientcurrencyy.Repository.CurrencyRepository;
 import org.springframework.beans.factory.annotation.Autowired; // Ajout de cette importation
 import org.springframework.stereotype.Service;
 
@@ -19,7 +19,7 @@ public class CurrencyService implements ICurrency {
     }
 
     @Override
-    public Currency editCurrency(long id, Currency newCurrency) {
+    public Currency updateCurrency(long id, Currency newCurrency) {
         if (currencyRepository.findById(id).isPresent()) {
             Currency existingCurrency = currencyRepository.findById(id).get();
             existingCurrency.setCode(newCurrency.getCode());

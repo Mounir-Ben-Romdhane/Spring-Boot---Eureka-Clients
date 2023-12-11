@@ -1,17 +1,20 @@
-package com.example.eurekaclientcurrency.Entity;
+package com.example.eurekaclientcurrencyy.Entity;
 
-import jakarta.persistence.Entity;
-import jakarta.persistence.Id;
-import lombok.Getter;
-import lombok.Setter;
+
+
+
+import javax.persistence.Entity;
+import javax.persistence.GeneratedValue;
+import javax.persistence.Id;
 
 @Entity
-@Getter
-@Setter
 public class Currency {
 
     @Id
+    @GeneratedValue
+
     private Long id;
+
 
     private String code; // Code de la devise (par exemple, USD, EUR)
     private String name; // Nom complet de la devise (par exemple, US Dollar, Euro)
@@ -27,13 +30,7 @@ public class Currency {
         super();
     }
 
-    public Long getId() {
-        return id;
-    }
 
-    public void setId(Long id) {
-        this.id = id;
-    }
 
     public String getCode() {
         return code;
@@ -57,5 +54,13 @@ public class Currency {
 
     public void setSymbol(String symbol) {
         this.symbol = symbol;
+    }
+
+    public void setId(Long id) {
+        this.id = id;
+    }
+
+    public Long getId() {
+        return id;
     }
 }
