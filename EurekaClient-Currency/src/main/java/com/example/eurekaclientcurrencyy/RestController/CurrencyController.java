@@ -1,11 +1,9 @@
-package com.example.eurekaclientcurrency.RestController;
+package com.example.eurekaclientcurrencyy.RestController;
 
-import com.example.eurekaclientcurrency.Service.ICurrency;
-import com.example.eurekaclientcurrency.Entity.Currency; // Import de la classe Currency correcte
+import com.example.eurekaclientcurrencyy.Service.ICurrency;
+import com.example.eurekaclientcurrencyy.Entity.Currency; // Import de la classe Currency correcte
 import lombok.AllArgsConstructor;
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.http.HttpStatus;
-import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
 
 import java.util.List;

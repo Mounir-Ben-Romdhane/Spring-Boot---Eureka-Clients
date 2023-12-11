@@ -1,6 +1,6 @@
-package com.example.eurekaclientcurrency.Service;
+package com.example.eurekaclientcurrencyy.Service;
 
-import com.example.eurekaclientcurrency.Entity.Currency;
+import com.example.eurekaclientcurrencyy.Entity.Currency;
 
 import java.util.List;
 
