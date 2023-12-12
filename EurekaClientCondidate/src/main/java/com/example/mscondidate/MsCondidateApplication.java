@@ -10,6 +10,7 @@ import org.springframework.cloud.netflix.eureka.EnableEurekaClient;
 import org.springframework.context.annotation.Bean;
 
 @SpringBootApplication
+@EnableEurekaClient
 public class MsCondidateApplication {
 
     public static void main(String[] args) {
@@ -19,6 +20,7 @@ public class MsCondidateApplication {
     @Autowired
     private CondidatRepository condidatRepository;
 
+    /*
     @Bean
     ApplicationRunner init() {
         return (args) -> {
@@ -29,5 +31,5 @@ public class MsCondidateApplication {
             //fetch
             condidatRepository.findAll().forEach(System.out::println);
         };
-    }
+    } */
 }

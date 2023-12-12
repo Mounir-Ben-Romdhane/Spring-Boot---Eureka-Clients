@@ -1,4 +1,5 @@
 FROM openjdk:11
-ARG JAR_FILE=target/*.jar
-COPY ${JAR_FILE} app.jar
-ENTRYPOINT ["java","-jar","/app.jar"]
+EXPOSE 8085
+
+ADD target/BlogMicroService-0.0.1-SNAPSHOT.jar BlogMicroService-0.0.1.jar
+ENTRYPOINT ["java", "-jar", "BlogMicroService-0.0.1.jar"]

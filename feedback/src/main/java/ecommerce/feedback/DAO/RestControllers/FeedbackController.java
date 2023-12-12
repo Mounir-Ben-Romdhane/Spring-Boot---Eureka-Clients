@@ -41,10 +41,10 @@ public class FeedbackController {
         feedBackService.deleteFeedBack(id);
     }
 
-    @GetMapping("/produit/get-produit-feign")
+   /* @GetMapping("/produit/get-produit-feign")
     public String getProductFeign(@RequestParam String name){
         return this.feedBackService.getProductByFeignClient(name);
-    }
+    } */
 
 
 }

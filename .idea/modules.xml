@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/.idea/Spring-Boot---Eureka-Clients.iml" filepath="$PROJECT_DIR$/.idea/Spring-Boot---Eureka-Clients.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/EurekaClient.iml" filepath="$PROJECT_DIR$/.idea/EurekaClient.iml" />
     </modules>
   </component>
 </project>

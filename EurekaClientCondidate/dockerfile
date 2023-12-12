@@ -1,0 +1,5 @@
+FROM openjdk:17
+EXPOSE 8086
+
+ADD target/MsCondidate-0.0.1-SNAPSHOT.jar MsCondidate.jar
+ENTRYPOINT ["java", "-jar", "MsCondidate.jar"]

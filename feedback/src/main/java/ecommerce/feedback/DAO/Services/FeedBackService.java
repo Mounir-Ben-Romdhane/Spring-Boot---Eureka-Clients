@@ -13,8 +13,8 @@ public class FeedBackService implements IFeedbackService{
     @Autowired
     private FeedbackRepository feedbackRepository;
 
-    @Autowired
-    private ProduitProxy produitProxy;
+    //@Autowired
+    //private ProduitProxy produitProxy;
     @Override
     public List<Feedback> findAll() {
         return feedbackRepository.findAll();
@@ -45,9 +45,9 @@ public class FeedBackService implements IFeedbackService{
     }
 
 
-    @Override
-    public String getProductByFeignClient(String name){
-        return produitProxy.getName(name);
-    }
+   // @Override
+    //public String getProductByFeignClient(String name){
+    //    return produitProxy.getName(name);
+    //}
 
 }

@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="5650f384-7658-4e0f-8927-e1a455b907c7" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/EurekaClientCondidate/src/main/java/com/example/mscondidate/MsCondidateApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/EurekaClientCondidate/src/main/java/com/example/mscondidate/MsCondidateApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/EurekaClientCondidate/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/EurekaClientCondidate/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/EurekaClientJob/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/EurekaClientJob/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/EurekaClientJob/src/main/java/tn/esprit/job/JobApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/EurekaClientJob/src/main/java/tn/esprit/job/JobApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/EurekaClientJob/src/main/java/tn/esprit/job/controller/JobRestController.java" beforeDir="false" afterPath="$PROJECT_DIR$/EurekaClientJob/src/main/java/tn/esprit/job/controller/JobRestController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/EurekaClientJob/src/main/java/tn/esprit/job/service/JobService.java" beforeDir="false" afterPath="$PROJECT_DIR$/EurekaClientJob/src/main/java/tn/esprit/job/service/JobService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/EurekaClientJob/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/EurekaClientJob/src/main/resources/application.properties" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectColorInfo"><![CDATA[{
+  "associatedIndex": 7
+}]]></component>
+  <component name="ProjectId" id="2ZLZnzjQUOcbBtektf2vXowkqv4" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "git-widget-placeholder": "master",
+    "last_opened_file_path": "C:/Users/MSI/OneDrive/Documents/GitHub/Micro-Service/EurekaClient",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="RunManager" selected="Spring Boot.CategoryClientApplication">
+    <configuration name="CategoryClientApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="CategoryClient" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.example.categoryclient.CategoryClientApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="JobApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="job" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="tn.esprit.job.JobApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MsCondidateApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="MsCondidate" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.example.mscondidate.MsCondidateApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="5650f384-7658-4e0f-8927-e1a455b907c7" name="Changes" comment="" />
+      <created>1702203490760</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1702203490760</updated>
+      <workItem from="1702203491829" duration="91000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+</project>
