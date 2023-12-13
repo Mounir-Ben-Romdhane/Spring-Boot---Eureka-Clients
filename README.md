@@ -9,7 +9,7 @@ Le client Eureka est configuré pour enregistrer des services afin qu'ils puisse
 
 - Le service `FEEDBACK-SERVICE` est enregistré et actuellement actif (UP).
 
-    ![FeedBack eureka client](image-1.png)
+    ![FeedBack eureka client](documentation/image-1.png)
 
 ## Passerelle API (API Gateway)
 
