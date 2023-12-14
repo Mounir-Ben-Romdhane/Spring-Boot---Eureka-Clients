@@ -4,14 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5650f384-7658-4e0f-8927-e1a455b907c7" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/EurekaClientCondidate/src/main/java/com/example/mscondidate/MsCondidateApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/EurekaClientCondidate/src/main/java/com/example/mscondidate/MsCondidateApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/EurekaClientCondidate/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/EurekaClientCondidate/src/main/resources/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/EurekaClientJob/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/EurekaClientJob/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/EurekaClientJob/src/main/java/tn/esprit/job/JobApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/EurekaClientJob/src/main/java/tn/esprit/job/JobApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/EurekaClientJob/src/main/java/tn/esprit/job/controller/JobRestController.java" beforeDir="false" afterPath="$PROJECT_DIR$/EurekaClientJob/src/main/java/tn/esprit/job/controller/JobRestController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/EurekaClientJob/src/main/java/tn/esprit/job/service/JobService.java" beforeDir="false" afterPath="$PROJECT_DIR$/EurekaClientJob/src/main/java/tn/esprit/job/service/JobService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/EurekaClientJob/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/EurekaClientJob/src/main/resources/application.properties" afterDir="false" />
+    <list default="true" id="5650f384-7658-4e0f-8927-e1a455b907c7" name="Changes" comment="Version final">
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/EurekaClientCondidate/src/main/java/com/example/mscondidate/Controller/CurrencyController.java" beforeDir="false" afterPath="$PROJECT_DIR$/EurekaClientCondidate/src/main/java/com/example/mscondidate/Controller/CurrencyController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/EurekaClientCondidate/src/main/java/com/example/mscondidate/Entity/Currency.java" beforeDir="false" afterPath="$PROJECT_DIR$/EurekaClientCondidate/src/main/java/com/example/mscondidate/Entity/Currency.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -21,9 +18,12 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 7
-}]]></component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 7
+}</component>
   <component name="ProjectId" id="2ZLZnzjQUOcbBtektf2vXowkqv4" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
@@ -36,6 +36,11 @@
     "WebServerToolWindowFactoryState": "false",
     "git-widget-placeholder": "master",
     "last_opened_file_path": "C:/Users/MSI/OneDrive/Documents/GitHub/Micro-Service/EurekaClient",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
@@ -71,10 +76,27 @@
       <option name="presentableId" value="Default" />
       <updated>1702203490760</updated>
       <workItem from="1702203491829" duration="91000" />
+      <workItem from="1702420902586" duration="377000" />
+      <workItem from="1702506223794" duration="27000" />
+      <workItem from="1702513417756" duration="107000" />
+      <workItem from="1702513635771" duration="91000" />
     </task>
+    <task id="LOCAL-00001" summary="Version final">
+      <option name="closed" value="true" />
+      <created>1702420960570</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1702420960571</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Version final" />
+    <option name="LAST_COMMIT_MESSAGE" value="Version final" />
   </component>
 </project>

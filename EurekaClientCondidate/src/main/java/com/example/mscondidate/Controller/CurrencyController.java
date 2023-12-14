@@ -3,7 +3,6 @@ package com.example.mscondidate.Controller;
 
 import com.example.mscondidate.Entity.Currency;
 import com.example.mscondidate.Services.ICurrency;
-import lombok.AllArgsConstructor;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
 
@@ -11,7 +10,6 @@ import java.util.List;
 
 @RestController
 @RequestMapping("Currency")
-@AllArgsConstructor
 public class CurrencyController {
 
     @Autowired
