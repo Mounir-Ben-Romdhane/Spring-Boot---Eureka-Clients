@@ -282,7 +282,6 @@ Cette commande crée un déploiement Kubernetes qui orchestre la création et la
 
 ![Création du déploiement Kubernetes pour le service de feedback](documentation/image-49.png)
 
-# Continuation de la Documentation du Projet Microservices
 
 ## Docker et Kubernetes
 
